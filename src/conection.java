@@ -3,9 +3,9 @@ import javax.swing.JOptionPane;
 
 
 public class conection {
-    String url = "jdbc:mysql://localhost:3306/bdescuela";
+    String url = "jdbc:mysql://172.17.0.1:3306/bdescuela";
     String usr = "root";
-    String pwd = "";
+    String pwd = "admin";
     Connection conectar =  null;
     
     public Connection conectar() {
